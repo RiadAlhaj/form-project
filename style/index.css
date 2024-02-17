@@ -1,0 +1,13 @@
+
+body{
+  width: 1440px;
+  height: 900px;
+  background-color: #9DBEBB;
+}
+.form{
+  background-color: #BE0909;
+  max-width: 954px;
+  width: 100%;
+  min-height: 594px;
+  height: 100%;
+}
