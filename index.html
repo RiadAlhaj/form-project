@@ -3,30 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style/normalize.css">
   <link rel="stylesheet" href="/style/index.css">
   <title>Form project</title>
 </head>
 <body>
   <header>
-    <form class="form">
-       <input type="name">
-       <input type="email">
-       <input type="text">
-       <input type="text">
-       <button>
-        Send Message
-       </button>
-       <div>
-        <img>
-       </div>
+   <div class="container">
+    <form class="form" action="#">
+      <label class="label-name" for="name">FULL NAME</label>
+      <input type="name" id="name" name="name" required >
+      <label class="emali-label" for="emali">EMAIL</label>
+      <input  type="email" id="emali" placeholder="Your Email" required>
+      <label class="regarding" for="Message-Regarding"> Message Regarding</label>
+      <textarea name="" id="Message-Regarding"></textarea>
+      <label class="massage" for="textarea">Message</label>
+      <textarea name="" id="textarea" placeholder="Your Message"></textarea>
+      <button class="button" type="submit">Send Message
+      </button>
     </form>
+    <div class="rghit-box">
+      <img class="img" src="/img/duck..png" alt="yellow-duck">
+    </div>
+   </di>
   </header>
   <main>
-
   </main>
   <footer>
-
   </footer>
 </body>
 </html>

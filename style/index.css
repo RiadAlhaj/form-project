@@ -3,11 +3,142 @@ body{
   width: 1440px;
   height: 900px;
   background-color: #9DBEBB;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
-.form{
+.container{
   background-color: #BE0909;
   max-width: 954px;
   width: 100%;
   min-height: 594px;
   height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 153px;
+  margin-left: 238px;
+  margin-right: 248px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  margin-left: 110px;
+  background-color:#BE0909;
+  max-width: 400px;
+  width: 100%;
+  min-height: 591px;
+  height: 100%;
+}
+input{
+  background-color: #BE0909;
+  border: none;
+  border-bottom: 2px solid #9DBEBB;
+}
+::-webkit-input-placeholder{
+  color: #FDFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 4.8px;
+}
+textarea{
+  background-color: #BE0909;
+  border: none;
+  border-bottom: 2px solid #9DBEBB;
+}
+.label-name{
+  width: 111px;
+  height: 21.13px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FEFFFF;
+}
+#name{
+  max-width: 400px;
+  width: 100%;
+  min-height: 50.87px;
+  height: 100%;
+}
+.emali-label{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  width: 60px;
+  height: 21px;
+  color: #FCFFFF;
+  margin-top: 22px;
+}
+#emali{
+  width: 160px;
+  height: 55px;
+  display: flex;
+}
+.regarding{
+  width: 213px;
+  height:21px;
+  margin-top: 31px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FEFFFF;
+}
+#Message-Regarding{
+  width: 160px;
+  height: 55px;
+}
+.massage{
+  width: 93px;
+  height: 21px;
+  margin-top: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FEFFFF;
+  margin-bottom: 21px;
+}
+#textarea{
+  width: 400px;
+  height: 51px;
+}
+
+.button{
+  width: 202px;
+  height: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  border: none;
+  border-radius: 40px;
+  background-color: #468189;
+  color: #FFFFFF;
+  margin-top: 56px;
+  margin-left: 54px;
+  cursor: pointer;
+  transition: background-color 0.7s, color 0.7s;
+}
+.button:hover{
+background-color: #FEFFFF;
+color:#468189;
+box-shadow: 5px 5px 10px rgba( 0, 0, 0, 0.16);
+}
+.buttom:active{
+  opacity: 0.8;
+}
+.rghit-box{
+  background-color: #FFB039;
+  max-width: 345px;
+  width: 100%;
+  min-height: 594px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.img{
+  width: 663px;
+  height: 603px;
+  margin-top: 52px;
+  margin-right: 152px;
 }
