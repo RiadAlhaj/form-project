@@ -1,10 +1,15 @@
 
 body{
-  width: 1440px;
-  height: 900px;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 900px;
+  height:100%;
   background-color: #9DBEBB;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .container{
   background-color: #BE0909;
@@ -13,27 +18,33 @@ body{
   min-height: 594px;
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: auto;
-  margin-top: 153px;
-  margin-left: 238px;
-  margin-right: 248px;
+}
+.form-container{
+  max-width: 614px;
+  width: 100%;
+  min-height: 594px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 .form{
   display: flex;
   flex-direction: column;
-  margin-top: 64px;
-  margin-left: 110px;
-  background-color:#BE0909;
   max-width: 400px;
   width: 100%;
-  min-height: 591px;
+  min-height: 594px;
   height: 100%;
+  margin-top: 64px;
 }
 input{
   background-color: #BE0909;
   border: none;
   border-bottom: 2px solid #9DBEBB;
+}
+input:hover{
+  background-color: #9DBEBB;
 }
 ::-webkit-input-placeholder{
   color: #FDFFFF;
@@ -42,43 +53,56 @@ input{
   font-weight: 400;
   letter-spacing: 4.8px;
 }
-textarea{
-  background-color: #BE0909;
-  border: none;
-  border-bottom: 2px solid #9DBEBB;
+.div-text{
+  max-width: 400px;
+  width: 100%;
+  min-height: 72px;
+  height: 100%;
 }
 .label-name{
   width: 111px;
-  height: 21.13px;
+  height: 21px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #FEFFFF;
 }
-#name{
+#text{
   max-width: 400px;
   width: 100%;
-  min-height: 50.87px;
+  min-height: 51px;
   height: 100%;
+}
+.div-emali{
+  width: 160px;
+  height: 72px;
+  margin-top: 22px;
 }
 .emali-label{
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 400;
+  width: 160px;
+  height: 72px;
+  color: #FCFFFF;
   width: 60px;
   height: 21px;
-  color: #FCFFFF;
-  margin-top: 22px;
 }
 #emali{
   width: 160px;
-  height: 55px;
+  height: 51px;
+}
+.div-regarding{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 213px;
+  height: 72px;
+  margin-top: 31px;
 }
 .regarding{
   width: 213px;
   height:21px;
-  margin-top: 31px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -86,7 +110,14 @@ textarea{
 }
 #Message-Regarding{
   width: 160px;
-  height: 55px;
+  height: 51px;
+}
+.div-textarea{
+  max-width: 400px;
+  width: 100%;
+  min-width: 72px;
+  height: 100%;
+  margin-top: 21px;
 }
 .massage{
   width: 93px;
@@ -96,13 +127,26 @@ textarea{
   font-size: 18px;
   font-weight: 400;
   color: #FEFFFF;
-  margin-bottom: 21px;
 }
 #textarea{
-  width: 400px;
-  height: 51px;
+  max-width: 400px;
+  width: 100%;
+  min-height: 51px;
+  height: 100%;
 }
-
+textarea{
+  background-color: #BE0909;
+  border: none;
+  border-bottom: 2px solid #9DBEBB;
+}
+textarea:hover{
+  background-color: #9DBEBB;
+}
+.buttom-div{
+  display: flex;
+  justify-content: center;
+  margin-top: 56px;
+}
 .button{
   width: 202px;
   height: 48px;
@@ -114,15 +158,14 @@ textarea{
   border-radius: 40px;
   background-color: #468189;
   color: #FFFFFF;
-  margin-top: 56px;
-  margin-left: 54px;
   cursor: pointer;
   transition: background-color 0.7s, color 0.7s;
+
 }
 .button:hover{
-background-color: #FEFFFF;
-color:#468189;
-box-shadow: 5px 5px 10px rgba( 0, 0, 0, 0.16);
+  background-color: #FEFFFF;
+  color:#468189;
+  box-shadow: 5px 5px 10px rgba( 0, 0, 0, 0.16);
 }
 .buttom:active{
   opacity: 0.8;
@@ -133,12 +176,11 @@ box-shadow: 5px 5px 10px rgba( 0, 0, 0, 0.16);
   width: 100%;
   min-height: 594px;
   height: 100%;
-  display: flex;
-  justify-content: center;
 }
 .img{
-  width: 663px;
-  height: 603px;
+  max-width: 663px;
+  width: 100%;
+  min-height: 603px;
+  height: 100%;
   margin-top: 52px;
-  margin-right: 152px;
 }

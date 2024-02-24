@@ -6,33 +6,40 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/style/normalize.css">
-  <link rel="stylesheet" href="/style/index.css">
+  <link rel="stylesheet" href="style/normalize.css">
+  <link rel="stylesheet" href="style/index.css">
   <title>Form project</title>
 </head>
 <body>
   <header>
    <div class="container">
-    <form class="form" action="#">
-      <label class="label-name" for="name">FULL NAME</label>
-      <input type="name" id="name" name="name" required >
-      <label class="emali-label" for="emali">EMAIL</label>
-      <input  type="email" id="emali" placeholder="Your Email" required>
-      <label class="regarding" for="Message-Regarding"> Message Regarding</label>
-      <textarea name="" id="Message-Regarding"></textarea>
-      <label class="massage" for="textarea">Message</label>
-      <textarea name="" id="textarea" placeholder="Your Message"></textarea>
-      <button class="button" type="submit">Send Message
-      </button>
-    </form>
-    <div class="rghit-box">
+     <div class="form-container">
+       <form class="form" action="#">
+         <div class="div-text">
+            <label class="label-name" for="text">FULL NAME</label>
+            <input type="text" id="text" name="name" required >
+         </div>
+         <div class="div-emali">
+            <label class="emali-label" for="emali">EMAIL</label>
+            <input  type="email" id="emali" placeholder="Your Email" required>
+         </div>
+         <div class="div-regarding">
+             <label class="regarding" for="Message-Regarding"> Message Regarding</label>
+             <input textarea name="regarding" id="Message-Regarding">
+         </div>
+         <div class="div-textarea">
+             <label class="massage" for="textarea">Message</label>
+             <textarea name="" id="textarea" placeholder="Your Message"></textarea>
+         </div>
+         <div class="buttom-div">
+          <button class="button" type="submit">Send Message</button>
+         </div>
+       </form>
+     </div>
+     <div class="rghit-box">
       <img class="img" src="/img/duck..png" alt="yellow-duck">
-    </div>
-   </di>
+     </div>
+   </div>
   </header>
-  <main>
-  </main>
-  <footer>
-  </footer>
 </body>
 </html>
